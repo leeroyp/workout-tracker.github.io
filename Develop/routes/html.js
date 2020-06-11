@@ -1,7 +1,5 @@
 var path = require("path");
 
-var path = require("path");
-
 module.exports = function(app) {
   // Called when "Countinue Workout" or "new Workout" is clicked in index.html
   app.get("/exercise", function(req, res) {
