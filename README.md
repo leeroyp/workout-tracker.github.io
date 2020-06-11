@@ -1,33 +1,29 @@
-web link: https://boiling-hollows-09852.herokuapp.com/
+Web link: https://leeroyp.github.io/PortfolioUpdate.github.io/
 
 
-# Unit 17 Nosql Homework: Workout Tracker
-![](images/Portfolio.png)
+# Unit 16 Project 2 Homework: Professional Materials
+
 
 ### Development 
-1.This is my updated portfolio.  In this assingment i tried to showcase as many skills as i have acquired to display in my portfolio. 
+For this assignment, we were required to create a workout tracker. We were  provided with the front end code in the Develop folder. In this assignment we were required to create Mongo database with a Mongoose schema and handle routes with Express.
 
+### User Story
 
-
-2.First step was to design a simple UI that couldn't be too complicated, I mostly used HTML , with some help of javascript I was able to get some very smooth scrolling addded to the html 
-
-
-3.I applied the used of Bootstrap and CSS to add some styling and color that would bring the page to life 
-
-4.In the home page I used buttons from Bootstrap to link with the scrolling pages so the user can simplie go to the desired page with a simple click
-
-5.We followed the home page with an about me page. This page provides a briefing about my journey so far as a web developer. Some of the stuff that can be found on this page includes a small bio about me , and some of the of the programs i have had a chance to experience with.
-
-6.Then comes the portfolio page, here we diplayed some of my favourite assignments that I have worked on so far . Using bootstrap modals, we were able to have a clean page highlighting some my favourite projects.  Users can simple click the learn more from each project to read more and have the option to visit the webpage or vist my github paage for a the code 
-
-7.Finally visitors can simple connect to me via linkndin , github , email or through phone with each info provided on the page with links to github and linkndin
-
-### Powered with 
+As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
  
-1. HTML
-2. JAVASCRIPT
-3. CSS
-4. BOOTSTRAP
+
+### Business Context
+A consumer will reach their fitness goals quicker when they track their workout progress.
+
+### Acceptance Criteria
+When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
+The user should be able to:
+
+Add exercises to a previous workout plan.
+
+Add new exercises to a new workout plan.
+
+View multiple the combined weight of multiple exercises on the stats page.
 
 
 
