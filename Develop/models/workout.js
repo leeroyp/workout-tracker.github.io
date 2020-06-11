@@ -2,15 +2,22 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
-const transactionSchema = new Schema({
-  name: {
+const workoutSchema = new Schema({
+  exercise: {
     type: String,
     trim: true,
-    required: "Type of Workout"
+    required: "Please select your workout"
   },
-  value: {
+  name: {
     type: String,
-    required: "name of workout"
+    required: "Enter name of the workout"
+  },
+  weight:Number ,
+  sets: Number,
+
+  Duration: {
+    type: Number,
+    required: "Duration"
   },
   date: {
     type: Date,
